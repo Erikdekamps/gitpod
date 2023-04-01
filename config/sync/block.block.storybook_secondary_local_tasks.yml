@@ -1,0 +1,22 @@
+uuid: 9a83136c-9bc6-45ac-992c-0fcdb3b372f6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - storybook
+_core:
+  default_config_hash: 2L0geP-ixCbCkEpW6BVF6H7vDUZN4ea07_Y9CociQm4
+id: storybook_secondary_local_tasks
+theme: storybook
+region: sidebar_first
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
